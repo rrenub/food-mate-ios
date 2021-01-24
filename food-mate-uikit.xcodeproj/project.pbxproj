@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4531F9C125AB2B2100802CAB /* DiaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4531F9C025AB2B2100802CAB /* DiaryModel.swift */; };
 		45CB0C29259A4C84008DD9E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB0C28259A4C84008DD9E7 /* AppDelegate.swift */; };
 		45CB0C2B259A4C84008DD9E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB0C2A259A4C84008DD9E7 /* SceneDelegate.swift */; };
 		45CB0C2D259A4C84008DD9E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB0C2C259A4C84008DD9E7 /* ViewController.swift */; };
 		45CB0C30259A4C84008DD9E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45CB0C2E259A4C84008DD9E7 /* Main.storyboard */; };
 		45CB0C32259A4C86008DD9E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45CB0C31259A4C86008DD9E7 /* Assets.xcassets */; };
 		45CB0C35259A4C86008DD9E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45CB0C33259A4C86008DD9E7 /* LaunchScreen.storyboard */; };
+		45CB0C41259B4EC0008DD9E7 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB0C40259B4EC0008DD9E7 /* FoodModel.swift */; };
+		45CB0C48259B5B3A008DD9E7 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB0C47259B5B39008DD9E7 /* Meal.swift */; };
+		45CB0C4E259B607D008DD9E7 /* SearchFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB0C4D259B607D008DD9E7 /* SearchFoodViewController.swift */; };
+		45CB0C55259B6B52008DD9E7 /* SearchFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB0C54259B6B52008DD9E7 /* SearchFooter.swift */; };
+		45CB0C58259B8930008DD9E7 /* FoodAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB0C57259B8930008DD9E7 /* FoodAddViewController.swift */; };
+		45CB0C5B259B8F75008DD9E7 /* FoodAddDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB0C5A259B8F75008DD9E7 /* FoodAddDiaryViewController.swift */; };
+		45CB0C5E259B92C5008DD9E7 /* DetailDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB0C5D259B92C5008DD9E7 /* DetailDiaryViewController.swift */; };
+		45CB0C62259DF28E008DD9E7 /* DiaryFoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB0C61259DF28E008DD9E7 /* DiaryFoodModel.swift */; };
+		45CB0C66259DF548008DD9E7 /* FoodMateDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45CB0C64259DF548008DD9E7 /* FoodMateDataModel.xcdatamodeld */; };
+		45CB0C8B259E126E008DD9E7 /* DiaryFood+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB0C89259E126E008DD9E7 /* DiaryFood+CoreDataClass.swift */; };
+		45CB0C8C259E126E008DD9E7 /* DiaryFood+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB0C8A259E126E008DD9E7 /* DiaryFood+CoreDataProperties.swift */; };
+		45CB0C91259E357C008DD9E7 /* Food+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB0C8F259E357C008DD9E7 /* Food+CoreDataClass.swift */; };
+		45CB0C92259E357C008DD9E7 /* Food+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB0C90259E357C008DD9E7 /* Food+CoreDataProperties.swift */; };
+		45CB0C9B25A1F18D008DD9E7 /* food.json in Resources */ = {isa = PBXBuildFile; fileRef = 45CB0C9A25A1F18D008DD9E7 /* food.json */; };
+		45CB0C9F25A1F655008DD9E7 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB0C9E25A1F655008DD9E7 /* NetworkingService.swift */; };
+		45CB0CA225A1F83B008DD9E7 /* InputBarcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB0CA125A1F83B008DD9E7 /* InputBarcodeViewController.swift */; };
+		45CB0CA525A1FA1B008DD9E7 /* ProcessBarcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB0CA425A1FA1B008DD9E7 /* ProcessBarcodeViewController.swift */; };
+		45CB0CAC25A224FA008DD9E7 /* CameraScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB0CAB25A224FA008DD9E7 /* CameraScanViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4531F9C025AB2B2100802CAB /* DiaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryModel.swift; sourceTree = "<group>"; };
 		45CB0C25259A4C84008DD9E7 /* food-mate-uikit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "food-mate-uikit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45CB0C28259A4C84008DD9E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45CB0C2A259A4C84008DD9E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +44,24 @@
 		45CB0C31259A4C86008DD9E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45CB0C34259A4C86008DD9E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45CB0C36259A4C86008DD9E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45CB0C40259B4EC0008DD9E7 /* FoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
+		45CB0C47259B5B39008DD9E7 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		45CB0C4D259B607D008DD9E7 /* SearchFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFoodViewController.swift; sourceTree = "<group>"; };
+		45CB0C54259B6B52008DD9E7 /* SearchFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFooter.swift; sourceTree = "<group>"; };
+		45CB0C57259B8930008DD9E7 /* FoodAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAddViewController.swift; sourceTree = "<group>"; };
+		45CB0C5A259B8F75008DD9E7 /* FoodAddDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAddDiaryViewController.swift; sourceTree = "<group>"; };
+		45CB0C5D259B92C5008DD9E7 /* DetailDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDiaryViewController.swift; sourceTree = "<group>"; };
+		45CB0C61259DF28E008DD9E7 /* DiaryFoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryFoodModel.swift; sourceTree = "<group>"; };
+		45CB0C65259DF548008DD9E7 /* FoodMateDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodMateDataModel.xcdatamodel; sourceTree = "<group>"; };
+		45CB0C89259E126E008DD9E7 /* DiaryFood+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DiaryFood+CoreDataClass.swift"; path = "../../DiaryFood+CoreDataClass.swift"; sourceTree = "<group>"; };
+		45CB0C8A259E126E008DD9E7 /* DiaryFood+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DiaryFood+CoreDataProperties.swift"; path = "../../DiaryFood+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		45CB0C8F259E357C008DD9E7 /* Food+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Food+CoreDataClass.swift"; sourceTree = "<group>"; };
+		45CB0C90259E357C008DD9E7 /* Food+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Food+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		45CB0C9A25A1F18D008DD9E7 /* food.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = food.json; sourceTree = "<group>"; };
+		45CB0C9E25A1F655008DD9E7 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		45CB0CA125A1F83B008DD9E7 /* InputBarcodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBarcodeViewController.swift; sourceTree = "<group>"; };
+		45CB0CA425A1FA1B008DD9E7 /* ProcessBarcodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessBarcodeViewController.swift; sourceTree = "<group>"; };
+		45CB0CAB25A224FA008DD9E7 /* CameraScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraScanViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4531F9BF25AB2AF600802CAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4531F9C025AB2B2100802CAB /* DiaryModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		45CB0C1C259A4C84008DD9E7 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +102,74 @@
 		45CB0C27259A4C84008DD9E7 /* food-mate-uikit */ = {
 			isa = PBXGroup;
 			children = (
+				4531F9BF25AB2AF600802CAB /* Models */,
+				45CB0C9D25A1F644008DD9E7 /* Services */,
+				45CB0C68259DF69B008DD9E7 /* CoreData Models */,
+				45CB0C4C259B605F008DD9E7 /* Views */,
+				45CB0C4B259B6053008DD9E7 /* Controllers */,
+				45CB0C3F259B4EA8008DD9E7 /* Data Models */,
 				45CB0C28259A4C84008DD9E7 /* AppDelegate.swift */,
 				45CB0C2A259A4C84008DD9E7 /* SceneDelegate.swift */,
-				45CB0C2C259A4C84008DD9E7 /* ViewController.swift */,
-				45CB0C2E259A4C84008DD9E7 /* Main.storyboard */,
 				45CB0C31259A4C86008DD9E7 /* Assets.xcassets */,
-				45CB0C33259A4C86008DD9E7 /* LaunchScreen.storyboard */,
 				45CB0C36259A4C86008DD9E7 /* Info.plist */,
+				45CB0C64259DF548008DD9E7 /* FoodMateDataModel.xcdatamodeld */,
+				45CB0C9A25A1F18D008DD9E7 /* food.json */,
 			);
 			path = "food-mate-uikit";
+			sourceTree = "<group>";
+		};
+		45CB0C3F259B4EA8008DD9E7 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				45CB0C40259B4EC0008DD9E7 /* FoodModel.swift */,
+				45CB0C47259B5B39008DD9E7 /* Meal.swift */,
+				45CB0C61259DF28E008DD9E7 /* DiaryFoodModel.swift */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		45CB0C4B259B6053008DD9E7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				45CB0C2C259A4C84008DD9E7 /* ViewController.swift */,
+				45CB0C4D259B607D008DD9E7 /* SearchFoodViewController.swift */,
+				45CB0C54259B6B52008DD9E7 /* SearchFooter.swift */,
+				45CB0C57259B8930008DD9E7 /* FoodAddViewController.swift */,
+				45CB0C5A259B8F75008DD9E7 /* FoodAddDiaryViewController.swift */,
+				45CB0C5D259B92C5008DD9E7 /* DetailDiaryViewController.swift */,
+				45CB0CA125A1F83B008DD9E7 /* InputBarcodeViewController.swift */,
+				45CB0CA425A1FA1B008DD9E7 /* ProcessBarcodeViewController.swift */,
+				45CB0CAB25A224FA008DD9E7 /* CameraScanViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		45CB0C4C259B605F008DD9E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				45CB0C33259A4C86008DD9E7 /* LaunchScreen.storyboard */,
+				45CB0C2E259A4C84008DD9E7 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		45CB0C68259DF69B008DD9E7 /* CoreData Models */ = {
+			isa = PBXGroup;
+			children = (
+				45CB0C8F259E357C008DD9E7 /* Food+CoreDataClass.swift */,
+				45CB0C90259E357C008DD9E7 /* Food+CoreDataProperties.swift */,
+				45CB0C89259E126E008DD9E7 /* DiaryFood+CoreDataClass.swift */,
+				45CB0C8A259E126E008DD9E7 /* DiaryFood+CoreDataProperties.swift */,
+			);
+			path = "CoreData Models";
+			sourceTree = "<group>";
+		};
+		45CB0C9D25A1F644008DD9E7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				45CB0C9E25A1F655008DD9E7 /* NetworkingService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45CB0C35259A4C86008DD9E7 /* LaunchScreen.storyboard in Resources */,
+				45CB0C9B25A1F18D008DD9E7 /* food.json in Resources */,
 				45CB0C32259A4C86008DD9E7 /* Assets.xcassets in Resources */,
 				45CB0C30259A4C84008DD9E7 /* Main.storyboard in Resources */,
 			);
@@ -137,9 +243,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45CB0C91259E357C008DD9E7 /* Food+CoreDataClass.swift in Sources */,
+				45CB0C66259DF548008DD9E7 /* FoodMateDataModel.xcdatamodeld in Sources */,
+				45CB0C48259B5B3A008DD9E7 /* Meal.swift in Sources */,
+				45CB0C62259DF28E008DD9E7 /* DiaryFoodModel.swift in Sources */,
+				45CB0C8C259E126E008DD9E7 /* DiaryFood+CoreDataProperties.swift in Sources */,
 				45CB0C2D259A4C84008DD9E7 /* ViewController.swift in Sources */,
+				45CB0C4E259B607D008DD9E7 /* SearchFoodViewController.swift in Sources */,
+				45CB0CA525A1FA1B008DD9E7 /* ProcessBarcodeViewController.swift in Sources */,
+				45CB0C5E259B92C5008DD9E7 /* DetailDiaryViewController.swift in Sources */,
+				45CB0C8B259E126E008DD9E7 /* DiaryFood+CoreDataClass.swift in Sources */,
+				45CB0C41259B4EC0008DD9E7 /* FoodModel.swift in Sources */,
+				45CB0CAC25A224FA008DD9E7 /* CameraScanViewController.swift in Sources */,
 				45CB0C29259A4C84008DD9E7 /* AppDelegate.swift in Sources */,
+				4531F9C125AB2B2100802CAB /* DiaryModel.swift in Sources */,
+				45CB0C9F25A1F655008DD9E7 /* NetworkingService.swift in Sources */,
+				45CB0C92259E357C008DD9E7 /* Food+CoreDataProperties.swift in Sources */,
 				45CB0C2B259A4C84008DD9E7 /* SceneDelegate.swift in Sources */,
+				45CB0C5B259B8F75008DD9E7 /* FoodAddDiaryViewController.swift in Sources */,
+				45CB0C58259B8930008DD9E7 /* FoodAddViewController.swift in Sources */,
+				45CB0CA225A1F83B008DD9E7 /* InputBarcodeViewController.swift in Sources */,
+				45CB0C55259B6B52008DD9E7 /* SearchFooter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +463,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		45CB0C64259DF548008DD9E7 /* FoodMateDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				45CB0C65259DF548008DD9E7 /* FoodMateDataModel.xcdatamodel */,
+			);
+			currentVersion = 45CB0C65259DF548008DD9E7 /* FoodMateDataModel.xcdatamodel */;
+			path = FoodMateDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 45CB0C1D259A4C84008DD9E7 /* Project object */;
 }
